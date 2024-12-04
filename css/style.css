@@ -11,8 +11,6 @@
     margin: 20px 20px 0 20px;
     position: sticky;
 
-
-
 }
 
 
@@ -32,12 +30,36 @@
     padding: 5px 20px;
     bottom: 70px;
     border: none;
+    color: white;
 
 }
 
+.color-back {
+    background-color: #B4D0E6;
+}
+
 .title-principal {
-    padding: 50px;
+    padding-top: 50px;
     text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
 
+.text-intro {
+    text-align: left;
+    width: 50%;
+    padding-left: 40%;
+}
 
+.button-blue {
+    background-color: #0060FF;
+    padding: 5px 20px;
+    bottom: 70px;
+    border: none;
+    margin: 0 auto;
+    color: white;
+}
+
+.jumbo-img {
+    width: 40%;
 }
