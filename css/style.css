@@ -63,3 +63,23 @@
 .jumbo-img {
     width: 40%;
 }
+
+.bounce {
+    padding: 20px;
+}
+
+.tab-professional {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-tab {
+    display: flex;
+    gap: 20px;
+}
+
+hr {
+    width: 50px;
+
+
+}
