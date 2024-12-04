@@ -1,1 +1,43 @@
- 
+.logo-dropbox {
+    width: 200px;
+    height: 40px;
+
+}
+
+.flex-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+    position: sticky;
+
+
+
+}
+
+
+.flex-logo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.banner-right {
+    gap: 40px;
+    display: flex;
+}
+
+.banner-right button {
+    background-color: #0060FF;
+    padding: 5px 20px;
+    bottom: 70px;
+    border: none;
+
+}
+
+.title-principal {
+    padding: 50px;
+    text-align: center;
+
+
+}
