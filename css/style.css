@@ -1,3 +1,7 @@
+:root {
+    --color-btn: #0060FF;
+}
+
 .logo-dropbox {
     width: 200px;
     height: 40px;
@@ -44,13 +48,25 @@
 
 .principal-desk {
     display: flex;
+    flex-basis: 30%;
+    row-gap: 20px;
+
+
 }
 
 .title-principal {
     padding-top: 50px;
     text-align: center;
-    width: 20%;
     margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text-intro {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
 
@@ -61,6 +77,7 @@
     width: 50%;
     padding-left: 10%;
     row-gap: 20px;
+
 }
 
 
@@ -76,17 +93,18 @@
 
 .jumbo-img {
     width: 40%;
+    flex-basis: 70%;
+}
+
+.container-80 {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .bounce {
     padding: 20px;
 }
 
-.conteiner-main {
-    margin-left: 25%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .tab-professional {
     display: flex;
@@ -94,11 +112,15 @@
     border: 1px solid;
     width: 15%;
     row-gap: 20px;
+    text-indent: 1rem;
+    margin-left: 5px;
 
 }
 
+
 .conteiner-icon {
     border-bottom: 1px solid;
+    padding: 10px;
 }
 
 .visto {
@@ -113,6 +135,7 @@
     border: 1px solid;
     width: 15%;
     row-gap: 20px;
+    gap: 10px;
 }
 
 .tab-enterprise {
@@ -131,6 +154,7 @@
 
 hr {
     width: 50px;
+
 
 
 }
