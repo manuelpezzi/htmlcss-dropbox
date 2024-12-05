@@ -2,6 +2,12 @@
     --color-btn: #0060FF;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 .logo-dropbox {
     width: 200px;
     height: 40px;
@@ -91,6 +97,15 @@
     border: none;
     margin: 0 auto;
     color: white;
+}
+
+.button-blue-last {
+    background-color: #0060FF;
+    padding: 5px 20px;
+    bottom: 70px;
+    border: none;
+    color: white;
+    margin-right: 30px;
 }
 
 .button-white {
