@@ -91,6 +91,15 @@
     color: white;
 }
 
+.button-white {
+    background-color: white;
+    padding: 5px 20px;
+    bottom: 70px;
+    border: 1px solid black;
+    margin: 0 auto;
+    color: black;
+}
+
 .jumbo-img {
     width: 40%;
     flex-basis: 70%;
@@ -154,6 +163,8 @@ li {
 
 }
 
+
+
 .last {
     flex-basis: 100%;
 }
@@ -163,4 +174,24 @@ li {
 
 hr {
     width: 50px;
+}
+
+
+.img-partner {
+    width: 90%;
+}
+
+.partner-container {
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.text-partner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
 }
