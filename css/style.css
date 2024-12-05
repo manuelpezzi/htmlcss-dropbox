@@ -56,10 +56,12 @@
 
 .title-principal {
     padding-top: 50px;
+    padding-bottom: 30px;
     text-align: center;
     margin: 0 auto;
     font-size: 2rem;
     margin-bottom: 10px;
+    max-width: 70%;
 }
 
 .text-intro {
